@@ -10,6 +10,11 @@
       "StackName": "amplify-warehouse-dev-183648",
       "StackId": "arn:aws:cloudformation:eu-west-1:541009335071:stack/amplify-warehouse-dev-183648/bb5cef30-baaa-11ed-9874-0202760b4349",
       "AmplifyAppId": "d2vua0pzf2tly"
+    },
+    "categories": {
+      "auth": {
+        "warehousec34df8b1": {}
+      }
     }
   }
 }
