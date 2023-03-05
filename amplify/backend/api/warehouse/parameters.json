@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "warehouse",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authwarehousec34df8b1",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2023-03-05T00:28:25.252Z"
+}

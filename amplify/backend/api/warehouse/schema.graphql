@@ -1,0 +1,13 @@
+type WarehouseItems @model @auth(rules: [{allow: public}, {allow: private}, {allow: private, provider: iam}]) {
+  id: ID!
+  Category: String
+  Description: String
+  Type: String
+  Manufacturer: String
+  Supplier: String
+  MPN: String
+  Warehouse: String
+  LocationInWarehouse: String
+  Quantity: Float
+}
+ 
